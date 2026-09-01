@@ -1,0 +1,30 @@
+{
+    "name": "harutosati/apiendpointmax",
+    "description": "APIEndpointMax - A powerful PHP application",
+    "type": "project",
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Apiendpointmax\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Apiendpointmax\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "harutosati"
+        }
+    ]
+}
